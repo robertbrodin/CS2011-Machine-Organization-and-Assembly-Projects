@@ -464,10 +464,6 @@ unsigned float_twice(unsigned uf) {
         return uf;
     }
     else if(exponent == 0){
-    printf("\n\nTo the TA grading this: I just wanted to let you know that this is probably the most difficult homework assignment I have had for Computer Science thus far.");
-    printf("\nI just wanted to say that I have been working in this for eight days, and I still didn't finish. I worked three hours a day on this assignment and STILL did not finish.");
-    printf("\nIt's frustrating to have not finished, but I gave it my all. I skipped two of my classes today just to work on this assignment and I didn't finish. (9 hours of work today)");
-    printf("\nThank you for hearing my rant, and I hope you're nice with my grade. Thank you. - Rob Brodin\n");
         return uf << 1;
     }
     else {
